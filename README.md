@@ -47,7 +47,7 @@ ApplicationMuter is a tool that allows users to mute specific applications on sp
 Namely, if participants in a voice call are hearing themselves or there is a doubling of your own mic in the screenshare audio, follow these steps:
 
 1. **Mute Your Sonar Mic for Discord or Parsec**:
-   - To fix doubling of mic audio - ensure that any virtual microphone like Sonar Mic or Voicemeeter is muted for applications like Discord or Parsec.
+   - To fix doubling of mic audio - ensure that any virtual microphone like Sonar Mic or Voicemeeter is muted for applications like Discord or Parsec. Don't worry, you can still use the virtual microphone through discord. This is only muting the virtual "playback" device that Sonar and Voicemeter creates for the microphone.
 
 2. **Mute Non-Sonar Playback Device**:
    - If you are using Sonar Chat Mix, mute your **non-Sonar** playback device in the JSON configuration, not the virtual Sonar playback device.
