@@ -50,7 +50,7 @@ Namely, if participants in a voice call are hearing themselves or there is a dou
    - To fix doubling of mic audio - ensure that any virtual microphone like Sonar Mic or Voicemeeter is muted for applications like Discord or Parsec. Don't worry, you can still use the virtual microphone through discord. This is only muting the virtual "playback" device that Sonar and Voicemeter creates for the microphone.
 
 2. **Mute Non-Sonar Playback Device**:
-   - If you are using Sonar Chat Mix, mute your **non-Sonar** playback device in the JSON configuration, not the virtual Sonar playback device. Presumably you have Sonar - Gaming set as your default playback device, and Sonar- Chat is where the chat audio through discord is routed through.
+   - If you are using Sonar Chat Mix, mute your **non-Sonar** playback device in the JSON configuration, not the virtual Sonar playback device. Presumably you have Sonar - Gaming set as your default playback device, and Sonar- Chat is where the chat audio through discord is routed through. These will remain functional.
 
 ### Example Configuration for Fixing Discord Screenshare
 
